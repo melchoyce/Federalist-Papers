@@ -1,0 +1,109 @@
+body {
+	background-color: #fafafa;
+	background-image: url('xv.png');
+    font-family: "adobe garamond pro", georgia, serif;
+    color: #292420;
+    text-shadow: 1px 1px 0 white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#container {
+	margin: 3em auto;
+	padding: 1em 1em 3em;
+	max-width: 760px;
+	border: 1px solid #ddd;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-image: url('lightpaperfibers.png');
+	box-shadow: 0 0 15px rgba(0,0,0,.05), inset 1px 1px 0 white;
+}
+
+h1, h2, h3, h4 {
+    margin: .5em 0;
+    font-weight: 400;
+}
+
+.colon,
+.comma {
+	letter-spacing: 0;
+	display: inline;
+}
+
+h1:nth-of-type(1) { /* The */
+	margin-top: 2em;
+}
+
+h1:nth-of-type(1), /* The */
+h2:nth-of-type(1) { /* A Collection */
+    font-size: 26px;
+    letter-spacing: .3em;
+}
+
+.colon, /* Federalist: */
+h1:nth-of-type(2) {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.colon {
+	margin-left: -.1em;
+}
+
+h1:nth-of-type(2) { /* Federalist: */
+    letter-spacing: .3em;
+}
+
+h2:nth-of-type(2) { /* of */ 
+    margin: 2em 0;
+    font-size: 16px;
+    letter-spacing: 1em;
+}
+
+h2:nth-of-type(3) { /* essays */
+    letter-spacing: 1.5em; 
+}
+
+h2 .comma, /* essays */
+h2:nth-of-type(3) {
+    font-size: 30px;    
+}
+
+h2 .comma {
+	margin-left: -1.3em;
+}
+
+h2:nth-of-type(4) {
+	margin-top: 2em;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: .75em;
+}
+
+h3:nth-of-type(1) { /* written in favor of the */
+    margin: 2.5em 0 1.5em;
+    font-size: 16px;
+    letter-spacing: .2em;
+}
+
+h3:nth-of-type(2) { /* new constitution, */
+	margin-top: 1.5em;
+	font-size: 28px;
+	letter-spacing: .4em;
+}
+
+h3 .comma {
+	margin-left: -.2em;
+}
+
+h4 { /* as agreed upon by the Federal Convention */
+	margin-top: 3em;
+    font-size: 16px;
+    letter-spacing: .1em;
+	line-height: 1.4;
+	font-style: italic;
+}
+
+h4 .comma {
+	margin-left: 0em;
+}
